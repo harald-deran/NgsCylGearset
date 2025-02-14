@@ -1,0 +1,18 @@
+object MyInfoForm: TMyInfoForm
+  Left = 361
+  Height = 653
+  Top = 226
+  Width = 952
+  Caption = 'NgsCylGear Info'
+  ClientHeight = 653
+  ClientWidth = 952
+  LCLVersion = '3.8.0.0'
+  object InfoMemo: TMemo
+    Left = 0
+    Height = 653
+    Top = 0
+    Width = 952
+    Align = alClient
+    TabOrder = 0
+  end
+end
