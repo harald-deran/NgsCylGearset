@@ -305,9 +305,6 @@ begin
   with gw1 do alpha_t := arctan(tan(alpha_n) / cos(gw1.beta));
   with gw2 do alpha_t := arctan(tan(alpha_n) / cos(gw2.beta));
   alpha_wt := InvToAngle(tan(gw1.alpha_t)-gw1.alpha_t + 2 * (gw1.x + gw2.x) * tan(gw1.alpha_n) / (gw1.z + gw2.z));
-  //gw1.m_n := 2 * a * cos(gw1.beta) * cos(alpha_wt) / (gw1.z + gw2.z) / cos(gw1.alpha_t);
-  //gw2.m_n := gw1.m_n;
-  alpha_wt := arccos(a_d * cos(gw1.alpha_t) / a);
   a_d := gw1.m_n * (gw1.z + gw2.z) / 2 / cos(gw1.beta);
   with gw1 do
   begin

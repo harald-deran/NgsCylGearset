@@ -60,7 +60,7 @@ type
     MainMenu1: TMainMenu;
     MenuItem2: TMenuItem;
     MenuItemOilFilePath: TMenuItem;
-    MenuItemCreateSTplusFile: TMenuItem;
+    MenuItemSaveSteFile: TMenuItem;
     MenuItem1: TMenuItem;
     MenuItemClose: TMenuItem;
     MyMemo: TMemo;
@@ -80,7 +80,7 @@ type
     procedure MenuItemOpenSteClick(Sender: TObject);
     procedure MenuItemOpenStaClick(Sender: TObject);
     procedure MenuItemCloseClick(Sender: TObject);
-    procedure MenuItemCreateSTplusFileClick(Sender: TObject);
+    procedure MenuItemSaveSteFileClick(Sender: TObject);
     procedure MenuItemOilFilePathClick(Sender: TObject);
     procedure MenuItemSaveMemoFileClick(Sender: TObject);
     procedure MenuItemStaPathClick(Sender: TObject);
@@ -423,7 +423,7 @@ begin
   Close;
 end;
 
-procedure TCylindricalGearset.MenuItemCreateSTplusFileClick(Sender: TObject); 
+procedure TCylindricalGearset.MenuItemSaveSteFileClick(Sender: TObject);
 var
   BufStr: string;
 begin                            
@@ -602,6 +602,7 @@ procedure TCylindricalGearset.CreateSteFile(aSteFileName: string);
 var
   MySL: tStringList;
 begin
+  GetInputData;
   CalcData;
   MySL := tStringList.Create;
   with MySL do
