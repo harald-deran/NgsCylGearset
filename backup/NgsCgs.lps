@@ -9,7 +9,7 @@
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="53" Y="23"/>
-        <UsageCount Value="170"/>
+        <UsageCount Value="173"/>
       </Unit>
       <Unit>
         <Filename Value="main.pas"/>
@@ -18,17 +18,18 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <IsVisibleTab Value="True"/>
-        <CursorPos X="21" Y="404"/>
-        <UsageCount Value="170"/>
+        <TopLine Value="474"/>
+        <CursorPos X="3" Y="490"/>
+        <UsageCount Value="173"/>
         <Bookmarks Count="8">
           <Item0 X="37" Y="127"/>
-          <Item1 X="24" Y="192" ID="1"/>
-          <Item2 X="42" Y="727" ID="3"/>
-          <Item3 X="29" Y="417" ID="5"/>
-          <Item4 X="35" Y="485" ID="4"/>
-          <Item5 X="3" Y="538" ID="9"/>
-          <Item6 X="32" Y="453" ID="8"/>
-          <Item7 X="28" Y="216" ID="2"/>
+          <Item1 X="42" Y="729" ID="3"/>
+          <Item2 X="29" Y="417" ID="5"/>
+          <Item3 X="35" Y="485" ID="4"/>
+          <Item4 X="3" Y="540" ID="9"/>
+          <Item5 X="32" Y="453" ID="8"/>
+          <Item6 X="28" Y="216" ID="2"/>
+          <Item7 X="52" Y="200" ID="1"/>
         </Bookmarks>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -40,7 +41,7 @@
         <WindowIndex Value="-1"/>
         <TopLine Value="-1"/>
         <CursorPos X="-1" Y="-1"/>
-        <UsageCount Value="170"/>
+        <UsageCount Value="173"/>
       </Unit>
       <Unit>
         <Filename Value="cgwunit.pas"/>
@@ -48,7 +49,7 @@
         <UnitName Value="CgwUnit"/>
         <EditorIndex Value="1"/>
         <CursorPos X="39" Y="29"/>
-        <UsageCount Value="169"/>
+        <UsageCount Value="172"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
@@ -56,13 +57,13 @@
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="27" Y="8"/>
-        <UsageCount Value="161"/>
+        <UsageCount Value="164"/>
       </Unit>
       <Unit>
         <Filename Value="oilwstunit.pas"/>
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="-1"/>
-        <UsageCount Value="75"/>
+        <UsageCount Value="78"/>
       </Unit>
       <Unit>
         <Filename Value="infoformunit.pas"/>
@@ -82,19 +83,7 @@
         <UsageCount Value="57"/>
       </Unit>
     </Units>
-    <JumpHistory HistoryIndex="29">
-      <Position>
-        <Filename Value="main.pas"/>
-        <Caret Line="437" Column="32" TopLine="430"/>
-      </Position>
-      <Position>
-        <Filename Value="main.pas"/>
-        <Caret Line="435" Column="47" TopLine="430"/>
-      </Position>
-      <Position>
-        <Filename Value="main.pas"/>
-        <Caret Line="500" Column="47" TopLine="480"/>
-      </Position>
+    <JumpHistory HistoryIndex="28">
       <Position>
         <Filename Value="main.pas"/>
         <Caret Line="437" Column="3" TopLine="419"/>
@@ -202,6 +191,14 @@
       <Position>
         <Filename Value="main.pas"/>
         <Caret Line="417" Column="32" TopLine="389"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="382" Column="6" TopLine="43"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="193" Column="27" TopLine="148"/>
       </Position>
     </JumpHistory>
     <RunParams>

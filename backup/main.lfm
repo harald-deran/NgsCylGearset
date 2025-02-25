@@ -1,16 +1,16 @@
 object CylindricalGearset: TCylindricalGearset
   Left = 836
-  Height = 658
+  Height = 680
   Top = 12
   Width = 1054
   Caption = 'NgsCylGearset'
-  ClientHeight = 658
+  ClientHeight = 680
   ClientWidth = 1054
   Menu = MainMenu1
-  LCLVersion = '3.8.0.0'
+  LCLVersion = '3.9.0.0'
   object MyPageControl: TPageControl
     Left = 0
-    Height = 658
+    Height = 680
     Top = 0
     Width = 1054
     ActivePage = TabSheetGearboxData
@@ -27,17 +27,17 @@ object CylindricalGearset: TCylindricalGearset
     TabPosition = tpRight
     object TabSheetGearboxData: TTabSheet
       Caption = 'Gearbox data'
-      ClientHeight = 654
+      ClientHeight = 676
       ClientWidth = 950
       object MyScrollBox: TScrollBox
         Left = 0
-        Height = 654
+        Height = 676
         Top = 0
         Width = 950
         HorzScrollBar.Page = 915
         VertScrollBar.Page = 635
         Align = alClient
-        ClientHeight = 652
+        ClientHeight = 674
         ClientWidth = 948
         TabOrder = 0
         object Panel1: TPanel
@@ -58,7 +58,7 @@ object CylindricalGearset: TCylindricalGearset
             EditLabel.Width = 88
             EditLabel.Caption = 'Zähnezahl [ - ]:'
             LabelPosition = lpLeft
-            TabOrder = 0
+            TabOrder = 4
             Text = '19'
             OnKeyPress = IntInput
           end
@@ -68,7 +68,7 @@ object CylindricalGearset: TCylindricalGearset
             Top = 180
             Width = 90
             Alignment = taRightJustify
-            TabOrder = 1
+            TabOrder = 5
             Text = '29'
             OnKeyPress = IntInput
           end
@@ -110,7 +110,7 @@ object CylindricalGearset: TCylindricalGearset
             EditLabel.Width = 151
             EditLabel.Caption = 'Normaleingriffswinkel [ ° ]:'
             LabelPosition = lpLeft
-            TabOrder = 3
+            TabOrder = 0
             Text = '20'
             OnKeyPress = FloatInput
           end
@@ -124,7 +124,7 @@ object CylindricalGearset: TCylindricalGearset
             EditLabel.Width = 134
             EditLabel.Caption = 'Schrägungswinkel [ ° ]:'
             LabelPosition = lpLeft
-            TabOrder = 4
+            TabOrder = 1
             Text = '20'
             OnKeyPress = FloatInput
           end
@@ -154,7 +154,7 @@ object CylindricalGearset: TCylindricalGearset
               '6: gleiche Wälzpressung '
               '7: x_1 = x_2 '
             )
-            TabOrder = 5
+            TabOrder = 8
           end
           object Edit_b1: TLabeledEdit
             Left = 240
@@ -190,7 +190,7 @@ object CylindricalGearset: TCylindricalGearset
             EditLabel.Width = 210
             EditLabel.Caption = 'Fasen an beiden Zahnenden [ mm ]:'
             LabelPosition = lpLeft
-            TabOrder = 8
+            TabOrder = 9
             Text = '0.1'
             OnKeyPress = IntInput
           end
@@ -200,7 +200,7 @@ object CylindricalGearset: TCylindricalGearset
             Top = 475
             Width = 90
             Alignment = taRightJustify
-            TabOrder = 9
+            TabOrder = 10
             Text = '0.1'
             OnKeyPress = IntInput
           end
@@ -210,7 +210,7 @@ object CylindricalGearset: TCylindricalGearset
             Top = 510
             Width = 90
             Alignment = taRightJustify
-            TabOrder = 10
+            TabOrder = 12
             Text = '0.1'
             OnKeyPress = IntInput
           end
@@ -241,7 +241,7 @@ object CylindricalGearset: TCylindricalGearset
             Font.Name = 'Liberation Sans'
             LabelPosition = lpLeft
             ParentFont = False
-            TabOrder = 12
+            TabOrder = 13
             Text = '5400'
             OnKeyPress = FloatInput
           end
@@ -258,7 +258,7 @@ object CylindricalGearset: TCylindricalGearset
             Font.Name = 'Liberation Sans'
             LabelPosition = lpLeft
             ParentFont = False
-            TabOrder = 14
+            TabOrder = 15
             Text = '3000'
             OnKeyPress = FloatInput
           end
@@ -287,7 +287,7 @@ object CylindricalGearset: TCylindricalGearset
             Font.Quality = fqDraft
             LabelPosition = lpLeft
             ParentFont = False
-            TabOrder = 15
+            TabOrder = 16
             Text = '1.0'
             OnKeyPress = FloatInput
           end
@@ -301,7 +301,7 @@ object CylindricalGearset: TCylindricalGearset
             EditLabel.Width = 122
             EditLabel.Caption = 'Normalmodul [ mm ]:'
             LabelPosition = lpLeft
-            TabOrder = 16
+            TabOrder = 3
             Text = '160'
             OnKeyPress = FloatInput
           end
@@ -318,7 +318,7 @@ object CylindricalGearset: TCylindricalGearset
             Font.Name = 'Liberation Sans'
             LabelPosition = lpLeft
             ParentFont = False
-            TabOrder = 17
+            TabOrder = 14
             Text = '9000'
             OnKeyPress = FloatInput
           end
@@ -328,7 +328,7 @@ object CylindricalGearset: TCylindricalGearset
             Top = 415
             Width = 108
             Caption = 'Unlegiertes Öl'
-            TabOrder = 18
+            TabOrder = 21
           end
           object ISO6336CheckBox: TCheckBox
             Left = 475
@@ -338,7 +338,7 @@ object CylindricalGearset: TCylindricalGearset
             Caption = 'Berechnung nach ISO 6336 (2006)'
             Checked = True
             State = cbChecked
-            TabOrder = 19
+            TabOrder = 22
           end
           object OilComboBox: TComboBox
             Left = 475
@@ -353,7 +353,7 @@ object CylindricalGearset: TCylindricalGearset
             Font.Quality = fqDraft
             ItemHeight = 0
             ParentFont = False
-            TabOrder = 13
+            TabOrder = 19
             TabStop = False
             OnChange = OilComboBoxChange
           end
@@ -370,7 +370,7 @@ object CylindricalGearset: TCylindricalGearset
             Top = 257
             Width = 200
             ItemHeight = 0
-            TabOrder = 20
+            TabOrder = 17
             Text = 'WstComboBox1'
             OnChange = WstComboBox1Change
           end
@@ -380,7 +380,7 @@ object CylindricalGearset: TCylindricalGearset
             Top = 257
             Width = 200
             ItemHeight = 0
-            TabOrder = 21
+            TabOrder = 18
             Text = 'WstComboBox2'
             OnChange = WstComboBox2Change
           end
@@ -408,7 +408,7 @@ object CylindricalGearset: TCylindricalGearset
             EditLabel.Width = 104
             EditLabel.Caption = 'Öltemperatur [ ° ]:'
             LabelPosition = lpLeft
-            TabOrder = 22
+            TabOrder = 20
             Text = '70'
             OnKeyPress = FloatInput
           end
@@ -419,7 +419,7 @@ object CylindricalGearset: TCylindricalGearset
             Width = 223
             ClientHeight = 50
             ClientWidth = 223
-            TabOrder = 23
+            TabOrder = 24
             object Label_i: TLabel
               Left = 105
               Height = 16
@@ -445,14 +445,14 @@ object CylindricalGearset: TCylindricalGearset
             Caption = 'Ausdruck FVA 166'
             Checked = True
             State = cbChecked
-            TabOrder = 24
+            TabOrder = 23
           end
         end
       end
     end
     object InfoTabSheet: TTabSheet
       Caption = 'InfoTab'
-      ClientHeight = 654
+      ClientHeight = 676
       ClientWidth = 950
       object Panel3: TPanel
         Left = 0
@@ -464,7 +464,7 @@ object CylindricalGearset: TCylindricalGearset
       end
       object MyMemo: TMemo
         Left = 0
-        Height = 594
+        Height = 616
         Top = 60
         Width = 950
         Align = alClient
