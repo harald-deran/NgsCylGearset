@@ -401,6 +401,7 @@ end;
 procedure TCylindricalGearset.MenuItemOpenStaClick(Sender: TObject);
 var
   BufStr: string;
+  MySL: tStringList;
 begin
   BufStr := MyOpenDialog.Title;
   MyOpenDialog.Title := 'STplus-Ausgabedatei öffnen';

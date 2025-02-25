@@ -9,7 +9,7 @@
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="53" Y="23"/>
-        <UsageCount Value="160"/>
+        <UsageCount Value="170"/>
       </Unit>
       <Unit>
         <Filename Value="main.pas"/>
@@ -18,9 +18,8 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="392"/>
         <CursorPos X="21" Y="404"/>
-        <UsageCount Value="160"/>
+        <UsageCount Value="170"/>
         <Bookmarks Count="8">
           <Item0 X="37" Y="127"/>
           <Item1 X="24" Y="192" ID="1"/>
@@ -41,7 +40,7 @@
         <WindowIndex Value="-1"/>
         <TopLine Value="-1"/>
         <CursorPos X="-1" Y="-1"/>
-        <UsageCount Value="160"/>
+        <UsageCount Value="170"/>
       </Unit>
       <Unit>
         <Filename Value="cgwunit.pas"/>
@@ -49,7 +48,7 @@
         <UnitName Value="CgwUnit"/>
         <EditorIndex Value="1"/>
         <CursorPos X="39" Y="29"/>
-        <UsageCount Value="159"/>
+        <UsageCount Value="169"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
@@ -57,13 +56,13 @@
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="27" Y="8"/>
-        <UsageCount Value="151"/>
+        <UsageCount Value="161"/>
       </Unit>
       <Unit>
         <Filename Value="oilwstunit.pas"/>
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="-1"/>
-        <UsageCount Value="65"/>
+        <UsageCount Value="75"/>
       </Unit>
       <Unit>
         <Filename Value="infoformunit.pas"/>
@@ -71,10 +70,8 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="InfoFormUnit"/>
-        <EditorIndex Value="2"/>
-        <UsageCount Value="63"/>
-        <Loaded Value="True"/>
-        <LoadedDesigner Value="True"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="67"/>
       </Unit>
       <Unit>
         <Filename Value="cgsunit.pas"/>
@@ -82,7 +79,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="7"/>
         <CursorPos X="3" Y="36"/>
-        <UsageCount Value="58"/>
+        <UsageCount Value="57"/>
       </Unit>
     </Units>
     <JumpHistory HistoryIndex="29">

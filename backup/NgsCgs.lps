@@ -9,7 +9,7 @@
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="53" Y="23"/>
-        <UsageCount Value="160"/>
+        <UsageCount Value="168"/>
       </Unit>
       <Unit>
         <Filename Value="main.pas"/>
@@ -18,17 +18,17 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="389"/>
-        <CursorPos X="32" Y="417"/>
-        <UsageCount Value="160"/>
+        <TopLine Value="392"/>
+        <CursorPos X="21" Y="404"/>
+        <UsageCount Value="168"/>
         <Bookmarks Count="8">
           <Item0 X="37" Y="127"/>
           <Item1 X="24" Y="192" ID="1"/>
-          <Item2 X="42" Y="726" ID="3"/>
-          <Item3 X="29" Y="416" ID="5"/>
-          <Item4 X="35" Y="484" ID="4"/>
-          <Item5 X="3" Y="537" ID="9"/>
-          <Item6 X="32" Y="452" ID="8"/>
+          <Item2 X="42" Y="727" ID="3"/>
+          <Item3 X="29" Y="417" ID="5"/>
+          <Item4 X="35" Y="485" ID="4"/>
+          <Item5 X="3" Y="538" ID="9"/>
+          <Item6 X="32" Y="453" ID="8"/>
           <Item7 X="28" Y="216" ID="2"/>
         </Bookmarks>
         <Loaded Value="True"/>
@@ -41,7 +41,7 @@
         <WindowIndex Value="-1"/>
         <TopLine Value="-1"/>
         <CursorPos X="-1" Y="-1"/>
-        <UsageCount Value="160"/>
+        <UsageCount Value="168"/>
       </Unit>
       <Unit>
         <Filename Value="cgwunit.pas"/>
@@ -49,7 +49,7 @@
         <UnitName Value="CgwUnit"/>
         <EditorIndex Value="1"/>
         <CursorPos X="39" Y="29"/>
-        <UsageCount Value="159"/>
+        <UsageCount Value="167"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
@@ -57,13 +57,13 @@
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="27" Y="8"/>
-        <UsageCount Value="151"/>
+        <UsageCount Value="159"/>
       </Unit>
       <Unit>
         <Filename Value="oilwstunit.pas"/>
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="-1"/>
-        <UsageCount Value="65"/>
+        <UsageCount Value="73"/>
       </Unit>
       <Unit>
         <Filename Value="infoformunit.pas"/>
@@ -72,7 +72,7 @@
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="InfoFormUnit"/>
         <EditorIndex Value="2"/>
-        <UsageCount Value="63"/>
+        <UsageCount Value="67"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
@@ -82,14 +82,10 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="7"/>
         <CursorPos X="3" Y="36"/>
-        <UsageCount Value="58"/>
+        <UsageCount Value="57"/>
       </Unit>
     </Units>
     <JumpHistory HistoryIndex="29">
-      <Position>
-        <Filename Value="main.pas"/>
-        <Caret Line="202" Column="40" TopLine="198"/>
-      </Position>
       <Position>
         <Filename Value="main.pas"/>
         <Caret Line="437" Column="32" TopLine="430"/>
@@ -205,6 +201,10 @@
       <Position>
         <Filename Value="main.pas"/>
         <Caret Line="398" Column="32" TopLine="369"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="417" Column="32" TopLine="389"/>
       </Position>
     </JumpHistory>
     <RunParams>
