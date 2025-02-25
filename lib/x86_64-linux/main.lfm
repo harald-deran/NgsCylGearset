@@ -480,9 +480,9 @@ object CylindricalGearset: TCylindricalGearset
     Top = 90
     object MenuItem1: TMenuItem
       Caption = 'Datei'
-      object MenuItemCreateSTplusFile: TMenuItem
+      object MenuItemSaveSteFile: TMenuItem
         Caption = 'STplus Eingabedatei speichern'
-        OnClick = MenuItemCreateSTplusFileClick
+        OnClick = MenuItemSaveSteFileClick
       end
       object MenuItemSaveMemoFile: TMenuItem
         Caption = 'Memo-Datei speichern'

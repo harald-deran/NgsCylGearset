@@ -354,7 +354,6 @@ object CylindricalGearset: TCylindricalGearset
             ItemHeight = 0
             ParentFont = False
             TabOrder = 19
-            TabStop = False
             OnChange = OilComboBoxChange
           end
           object Label10: TLabel
