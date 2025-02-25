@@ -1,16 +1,16 @@
 object CylindricalGearset: TCylindricalGearset
   Left = 836
-  Height = 658
+  Height = 634
   Top = 12
   Width = 1054
   Caption = 'NgsCylGearset'
-  ClientHeight = 658
+  ClientHeight = 634
   ClientWidth = 1054
   Menu = MainMenu1
   LCLVersion = '3.8.0.0'
   object MyPageControl: TPageControl
     Left = 0
-    Height = 658
+    Height = 634
     Top = 0
     Width = 1054
     ActivePage = TabSheetGearboxData
@@ -27,18 +27,18 @@ object CylindricalGearset: TCylindricalGearset
     TabPosition = tpRight
     object TabSheetGearboxData: TTabSheet
       Caption = 'Gearbox data'
-      ClientHeight = 654
+      ClientHeight = 630
       ClientWidth = 950
       object MyScrollBox: TScrollBox
         Left = 0
-        Height = 654
+        Height = 630
         Top = 0
         Width = 950
         HorzScrollBar.Page = 915
-        VertScrollBar.Page = 635
+        VertScrollBar.Page = 628
         Align = alClient
-        ClientHeight = 652
-        ClientWidth = 948
+        ClientHeight = 628
+        ClientWidth = 935
         TabOrder = 0
         object Panel1: TPanel
           Left = 5
@@ -452,7 +452,7 @@ object CylindricalGearset: TCylindricalGearset
     end
     object InfoTabSheet: TTabSheet
       Caption = 'InfoTab'
-      ClientHeight = 654
+      ClientHeight = 630
       ClientWidth = 950
       object Panel3: TPanel
         Left = 0
@@ -464,7 +464,7 @@ object CylindricalGearset: TCylindricalGearset
       end
       object MyMemo: TMemo
         Left = 0
-        Height = 594
+        Height = 570
         Top = 60
         Width = 950
         Align = alClient

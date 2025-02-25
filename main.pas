@@ -485,9 +485,11 @@ begin
     MyOpenDialog.Title := BufStr;
   end;
   aSteFile := LastSteFile;
-  aStaFile := LastSteFile;
+
+  aStaFile := ExtractFilename(aSteFile);
   Delete(aStaFile, Length(aStaFile), 1);
   aStaFile := aStaFile + 'a';
+  aStaFile := StaPath + aStaFile;
   MySL := tStringList.Create;
   MySL.LoadFromFile(STplusCfgFile);
   for LinePos := 0 to MySL.Count-1 do
